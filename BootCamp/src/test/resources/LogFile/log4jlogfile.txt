@@ -1,0 +1,117 @@
+2021-04-30 03:00:52,825 INFO B.BaseTest [main] Object Repository File Found Successfully.
+2021-04-30 03:00:52,828 INFO B.BaseTest [main] Object Repository File Loaded Successfully. 
+2021-04-30 03:00:54,594 INFO B.BaseTest [main] CHROME: Browser is Launched Successfully.
+2021-04-30 03:00:55,188 INFO B.BaseTest [main] ### Begin TestCase Execution  ###
+2021-04-30 03:00:57,085 INFO B.BaseTest [main] Navigated to :HTTPS://WWW.TWITTER.COM
+2021-04-30 03:00:57,096 INFO B.BaseTest [main] ******************Test Started: LoginTest***************************
+2021-04-30 03:00:57,204 INFO B.BaseTest [main] Driver initialized and Landing Page Loading success. PageTitle: Twitter
+2021-04-30 03:00:58,835 INFO B.BaseTest [main] User: "birrpro2" Logged In Successfully.
+2021-04-30 03:01:01,601 INFO B.BaseTest [main] User: "birrpro2" Logged Out Successfully.
+2021-04-30 03:01:04,624 INFO B.BaseTest [main] *********************Test Success: LoginTest
+2021-04-30 03:01:04,994 INFO B.BaseTest [main] Navigated to :HTTPS://WWW.TWITTER.COM
+2021-04-30 03:01:04,996 INFO B.BaseTest [main] ******************Test Started: LoginTest***************************
+2021-04-30 03:01:05,099 INFO B.BaseTest [main] Driver initialized and Landing Page Loading success. PageTitle: Twitter
+2021-04-30 03:01:06,459 INFO B.BaseTest [main] User: "3025150535" Logged In Successfully.
+2021-04-30 03:01:07,510 INFO B.BaseTest [main] User: "3025150535" Logged Out Successfully.
+2021-04-30 03:01:10,522 INFO B.BaseTest [main] *********************Test Success: LoginTest
+2021-04-30 03:01:10,909 INFO B.BaseTest [main] Navigated to :HTTPS://WWW.TWITTER.COM
+2021-04-30 03:01:10,911 INFO B.BaseTest [main] ******************Test Started: LoginTest***************************
+2021-04-30 03:01:10,974 INFO B.BaseTest [main] Driver initialized and Landing Page Loading success. PageTitle: Twitter
+2021-04-30 03:01:12,399 INFO B.BaseTest [main] User: "7038284429" Logged In Successfully.
+2021-04-30 03:01:13,358 INFO B.BaseTest [main] User: "7038284429" Logged Out Successfully.
+2021-04-30 03:01:16,371 INFO B.BaseTest [main] *********************Test Success: LoginTest
+2021-04-30 03:01:16,416 INFO B.BaseTest [main] ### End TestCase Execution  ###
+2021-04-30 03:01:16,419 INFO B.BaseTest [main] ### Begin TestCase Execution  ###
+2021-04-30 03:01:16,845 INFO B.BaseTest [main] Navigated to :HTTPS://WWW.TWITTER.COM
+2021-04-30 03:01:16,848 INFO B.BaseTest [main] ******************Test Started: SearchTwitter***************************
+2021-04-30 03:01:16,928 INFO B.BaseTest [main] Driver initialized and Landing Page Loading success. PageTitle: Twitter
+2021-04-30 03:01:18,180 INFO B.BaseTest [main] User Logged in Successfully.
+2021-04-30 03:01:24,650 INFO B.BaseTest [main] search and Following is completed successfully for User Name= "@Jay_Mathur20"
+2021-04-30 03:01:25,113 INFO B.BaseTest [main] User Logged Out Successfully.
+2021-04-30 03:01:28,122 INFO B.BaseTest [main] *********************Test Success: SearchTwitter
+2021-04-30 03:01:28,486 INFO B.BaseTest [main] Navigated to :HTTPS://WWW.TWITTER.COM
+2021-04-30 03:01:28,488 INFO B.BaseTest [main] ******************Test Started: SearchTwitter***************************
+2021-04-30 03:01:28,591 INFO B.BaseTest [main] Driver initialized and Landing Page Loading success. PageTitle: Twitter
+2021-04-30 03:01:29,922 INFO B.BaseTest [main] User Logged in Successfully.
+2021-04-30 03:01:35,273 INFO B.BaseTest [main] search and Following is completed successfully for User Name= "@Tesla"
+2021-04-30 03:01:35,883 INFO B.BaseTest [main] User Logged Out Successfully.
+2021-04-30 03:01:38,888 INFO B.BaseTest [main] *********************Test Success: SearchTwitter
+2021-04-30 03:01:39,247 INFO B.BaseTest [main] Navigated to :HTTPS://WWW.TWITTER.COM
+2021-04-30 03:01:39,249 INFO B.BaseTest [main] ******************Test Started: SearchTwitter***************************
+2021-04-30 03:01:39,386 INFO B.BaseTest [main] Driver initialized and Landing Page Loading success. PageTitle: Twitter
+2021-04-30 03:01:40,664 INFO B.BaseTest [main] User Logged in Successfully.
+2021-04-30 03:01:46,026 INFO B.BaseTest [main] search and Following is completed successfully for User Name= "@CDCgov"
+2021-04-30 03:01:46,627 INFO B.BaseTest [main] User Logged Out Successfully.
+2021-04-30 03:01:49,636 INFO B.BaseTest [main] *********************Test Success: SearchTwitter
+2021-04-30 03:01:49,648 INFO B.BaseTest [main] ### End TestCase Execution  ###
+2021-04-30 03:01:49,650 INFO B.BaseTest [main] ### Begin TestCase Execution  ###
+2021-04-30 03:01:50,052 INFO B.BaseTest [main] Navigated to :HTTPS://WWW.TWITTER.COM
+2021-04-30 03:01:50,054 INFO B.BaseTest [main] ******************Test Started: postNewTweet***************************
+2021-04-30 03:01:50,157 INFO B.BaseTest [main] Driver initialized and Landing Page Loading success. PageTitle: Twitter
+2021-04-30 03:01:51,408 INFO B.BaseTest [main] User Logged in Successfully.
+2021-04-30 03:01:53,384 INFO B.BaseTest [main] Twitter Message Posted successfully with message= "I Like Twitter Very Much!"
+2021-04-30 03:01:54,182 INFO B.BaseTest [main] User Logged Out Successfully.
+2021-04-30 03:01:57,194 INFO B.BaseTest [main] *********************Test Success: postNewTweet
+2021-04-30 03:01:57,554 INFO B.BaseTest [main] Navigated to :HTTPS://WWW.TWITTER.COM
+2021-04-30 03:01:57,557 INFO B.BaseTest [main] ******************Test Started: postNewTweet***************************
+2021-04-30 03:01:57,643 INFO B.BaseTest [main] Driver initialized and Landing Page Loading success. PageTitle: Twitter
+2021-04-30 03:01:59,019 INFO B.BaseTest [main] User Logged in Successfully.
+2021-04-30 03:02:01,128 INFO B.BaseTest [main] Twitter Message Posted successfully with message= "If you Like Twitter Please Like this Message!"
+2021-04-30 03:02:01,899 INFO B.BaseTest [main] User Logged Out Successfully.
+2021-04-30 03:02:04,916 INFO B.BaseTest [main] *********************Test Success: postNewTweet
+2021-04-30 03:02:05,251 INFO B.BaseTest [main] Navigated to :HTTPS://WWW.TWITTER.COM
+2021-04-30 03:02:05,253 INFO B.BaseTest [main] ******************Test Started: postNewTweet***************************
+2021-04-30 03:02:05,352 INFO B.BaseTest [main] Driver initialized and Landing Page Loading success. PageTitle: Twitter
+2021-04-30 03:02:06,666 INFO B.BaseTest [main] User Logged in Successfully.
+2021-04-30 03:02:08,762 INFO B.BaseTest [main] Twitter Message Posted successfully with message= "GoodMorning Fellow Americans today is My BirtDay!"
+2021-04-30 03:02:09,554 INFO B.BaseTest [main] User Logged Out Successfully.
+2021-04-30 03:02:12,558 INFO B.BaseTest [main] *********************Test Success: postNewTweet
+2021-04-30 03:02:12,899 INFO B.BaseTest [main] Navigated to :HTTPS://WWW.TWITTER.COM
+2021-04-30 03:02:12,900 INFO B.BaseTest [main] ******************Test Started: postNewTweet***************************
+2021-04-30 03:02:12,982 INFO B.BaseTest [main] Driver initialized and Landing Page Loading success. PageTitle: Twitter
+2021-04-30 03:02:14,245 INFO B.BaseTest [main] User Logged in Successfully.
+2021-04-30 03:02:16,272 INFO B.BaseTest [main] Twitter Message Posted successfully with message= "Hello This is a Complementary Tweet."
+2021-04-30 03:02:17,066 INFO B.BaseTest [main] User Logged Out Successfully.
+2021-04-30 03:02:20,073 INFO B.BaseTest [main] *********************Test Success: postNewTweet
+2021-04-30 03:02:20,082 INFO B.BaseTest [main] ### End TestCase Execution  ###
+2021-04-30 03:02:20,085 INFO B.BaseTest [main] ### Begin TestCase Execution  ###
+2021-04-30 03:02:20,483 INFO B.BaseTest [main] Navigated to :HTTPS://WWW.TWITTER.COM
+2021-04-30 03:02:20,485 INFO B.BaseTest [main] ******************Test Started: sendMessages***************************
+2021-04-30 03:02:20,578 INFO B.BaseTest [main] Driver initialized and Landing Page Loading success. PageTitle: Twitter
+2021-04-30 03:02:21,908 INFO B.BaseTest [main] User Logged in Successfully.
+2021-04-30 03:02:33,532 INFO B.BaseTest [main] "April is the month of Shinning, I have amazing historical journals of my family findings, please meet me today afternoon and I can show you. Thanks."is sent to the user: "@Birrpro2" Successfully.
+2021-04-30 03:02:36,943 INFO B.BaseTest [main] User Logged Out Successfully.
+2021-04-30 03:02:39,957 INFO B.BaseTest [main] *********************Test Success: sendMessages
+2021-04-30 03:02:40,304 INFO B.BaseTest [main] Navigated to :HTTPS://WWW.TWITTER.COM
+2021-04-30 03:02:40,307 INFO B.BaseTest [main] ******************Test Started: sendMessages***************************
+2021-04-30 03:02:40,407 INFO B.BaseTest [main] Driver initialized and Landing Page Loading success. PageTitle: Twitter
+2021-04-30 03:02:41,697 INFO B.BaseTest [main] User Logged in Successfully.
+2021-04-30 03:02:52,975 INFO B.BaseTest [main] "I have Completed the BootCamp Project, If you receive this please Know it’s a Test! Thanks."is sent to the user: "@BelayRute" Successfully.
+2021-04-30 03:02:56,362 INFO B.BaseTest [main] User Logged Out Successfully.
+2021-04-30 03:02:59,370 INFO B.BaseTest [main] *********************Test Success: sendMessages
+2021-04-30 03:02:59,730 INFO B.BaseTest [main] Navigated to :HTTPS://WWW.TWITTER.COM
+2021-04-30 03:02:59,731 INFO B.BaseTest [main] ******************Test Started: sendMessages***************************
+2021-04-30 03:02:59,813 INFO B.BaseTest [main] Driver initialized and Landing Page Loading success. PageTitle: Twitter
+2021-04-30 03:03:01,259 INFO B.BaseTest [main] User Logged in Successfully.
+2021-04-30 03:03:12,440 INFO B.BaseTest [main] "I wanted to buy a new car! Please send the quote to my Email: "birr.mp6@gmail.com" Thanks."is sent to the user: "@Tesla" Successfully.
+2021-04-30 03:03:15,867 INFO B.BaseTest [main] User Logged Out Successfully.
+2021-04-30 03:03:18,882 INFO B.BaseTest [main] *********************Test Success: sendMessages
+2021-04-30 03:03:19,240 INFO B.BaseTest [main] Navigated to :HTTPS://WWW.TWITTER.COM
+2021-04-30 03:03:19,241 INFO B.BaseTest [main] ******************Test Started: sendMessages***************************
+2021-04-30 03:03:19,324 INFO B.BaseTest [main] Driver initialized and Landing Page Loading success. PageTitle: Twitter
+2021-04-30 03:03:20,589 INFO B.BaseTest [main] User Logged in Successfully.
+2021-04-30 03:03:31,807 INFO B.BaseTest [main] "I have Completed the BootCamp Project, If you receive this please Know it’s a Test! Thanks."is sent to the user: "@BirrPro" Successfully.
+2021-04-30 03:03:35,256 INFO B.BaseTest [main] User Logged Out Successfully.
+2021-04-30 03:03:38,270 INFO B.BaseTest [main] *********************Test Success: sendMessages
+2021-04-30 03:03:38,281 INFO B.BaseTest [main] ### End TestCase Execution  ###
+2021-04-30 03:03:38,282 INFO B.BaseTest [main] ### Begin TestCase Execution  ###
+2021-04-30 03:03:38,712 INFO B.BaseTest [main] Navigated to :HTTPS://WWW.TWITTER.COM
+2021-04-30 03:03:38,714 INFO B.BaseTest [main] ******************Test Started: updateProfile***************************
+2021-04-30 03:03:38,782 INFO B.BaseTest [main] Driver initialized and Landing Page Loading success. PageTitle: Twitter
+2021-04-30 03:03:40,053 INFO B.BaseTest [main] User Logged in Successfully.
+2021-04-30 03:03:42,639 INFO B.BaseTest [main] User Profile and Header Picture is Updated.
+2021-04-30 03:03:46,080 INFO B.BaseTest [main] User has: 60 Notifications and List is Printed in the consul
+2021-04-30 03:04:28,402 INFO B.BaseTest [main] User has: 0 Mention's Notification and List is Printed in the consul
+2021-04-30 03:04:28,874 INFO B.BaseTest [main] User Logged Out Successfully.
+2021-04-30 03:04:31,882 INFO B.BaseTest [main] *********************Test Success: updateProfile
+2021-04-30 03:04:31,893 INFO B.BaseTest [main] ### End TestCase Execution  ###

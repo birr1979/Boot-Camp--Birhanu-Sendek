@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Programming Related\NEW WORKSPACE\BootCamp\TestNGRunner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.LoginTest" class="method navigator-link" hash-for-method="LoginTest(birrpro2, ethio1234)">LoginTest(birrpro2, ethio1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.LoginTest" class="method navigator-link" hash-for-method="LoginTest(7038284429, ethio1234)">LoginTest(7038284429, ethio1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.LoginTest" class="method navigator-link" hash-for-method="LoginTest(3025150535, ethio1234)">LoginTest(3025150535, ethio1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SearchTwitterTest" class="method navigator-link" hash-for-method="SearchTwitter(@CDCgov)">SearchTwitter(@CDCgov)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SearchTwitterTest" class="method navigator-link" hash-for-method="SearchTwitter(@Jay_Mathur20)">SearchTwitter(@Jay_Mathur20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SearchTwitterTest" class="method navigator-link" hash-for-method="SearchTwitter(@Tesla)">SearchTwitter(@Tesla)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.CreateAnewTweetTest" class="method navigator-link" hash-for-method="postNewTweet(GoodMorning Fellow Americans today is My BirtDay!)">postNewTweet(GoodMorning Fellow Americans today is My BirtDay!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.CreateAnewTweetTest" class="method navigator-link" hash-for-method="postNewTweet(I Like Twitter Very Much!)">postNewTweet(I Like Twitter Very Much!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.CreateAnewTweetTest" class="method navigator-link" hash-for-method="postNewTweet(If you Like Twitter Please Like this Message!)">postNewTweet(If you Like Twitter Please Like this Message!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.CreateAnewTweetTest" class="method navigator-link" hash-for-method="postNewTweet(Hello This is a Complementary Tweet.)">postNewTweet(Hello This is a Complementary Tweet.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SendAMessageTest" class="method navigator-link" hash-for-method="sendMessages(@BelayRute, I have Completed the BootCamp Project, If you receive this please Know it’s a Test! Than...)">sendMessages(@BelayRute, I have Completed the BootCamp Project, If you receive this please Know it’s a Test! Than...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SendAMessageTest" class="method navigator-link" hash-for-method="sendMessages(@BirrPro, I have Completed the BootCamp Project, If you receive this please Know it’s a Test! Thanks...)">sendMessages(@BirrPro, I have Completed the BootCamp Project, If you receive this please Know it’s a Test! Thanks...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SendAMessageTest" class="method navigator-link" hash-for-method="sendMessages(@Tesla, I wanted to buy a new car! Please send the quote to my Email: &quot;birr.mp6@gmail.com&quot; Thanks.)">sendMessages(@Tesla, I wanted to buy a new car! Please send the quote to my Email: "birr.mp6@gmail.com" Thanks.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SendAMessageTest" class="method navigator-link" hash-for-method="sendMessages(@Birrpro2, April is the month of Shinning, I have amazing historical journals of my family findings,...)">sendMessages(@Birrpro2, April is the month of Shinning, I have amazing historical journals of my family findings,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.UpdateProfileTest" class="method navigator-link" hash-for-method="updateProfile(birrpro2, C:\\Programming Related\\NEW WORKSPACE\\BootCamp\\src\\test\\resources\\ProfilePicture\\tw...)">updateProfile(birrpro2, C:\\Programming Related\\NEW WORKSPACE\\BootCamp\\src\\test\\resources\\ProfilePicture\\tw...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.SendAMessageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendMessages(@BelayRute, I have Completed the BootCamp Project, If you receive this please Know it’s a Test! Than...)">
+                  </a> <!-- sendMessages(@BelayRute, I have Completed the BootCamp Project, If you receive this please Know it’s a Test! Than...) -->
+                  <span class="method-name">sendMessages</span>
+                  <span class="parameters">(@BelayRute, I have Completed the BootCamp Project, If you receive this please Know it’s a Test! Thanks.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendMessages(@BirrPro, I have Completed the BootCamp Project, If you receive this please Know it’s a Test! Thanks...)">
+                  </a> <!-- sendMessages(@BirrPro, I have Completed the BootCamp Project, If you receive this please Know it’s a Test! Thanks...) -->
+                  <span class="method-name">sendMessages</span>
+                  <span class="parameters">(@BirrPro, I have Completed the BootCamp Project, If you receive this please Know it’s a Test! Thanks.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendMessages(@Tesla, I wanted to buy a new car! Please send the quote to my Email: &quot;birr.mp6@gmail.com&quot; Thanks.)">
+                  </a> <!-- sendMessages(@Tesla, I wanted to buy a new car! Please send the quote to my Email: "birr.mp6@gmail.com" Thanks.) -->
+                  <span class="method-name">sendMessages</span>
+                  <span class="parameters">(@Tesla, I wanted to buy a new car! Please send the quote to my Email: "birr.mp6@gmail.com" Thanks.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendMessages(@Birrpro2, April is the month of Shinning, I have amazing historical journals of my family findings,...)">
+                  </a> <!-- sendMessages(@Birrpro2, April is the month of Shinning, I have amazing historical journals of my family findings,...) -->
+                  <span class="method-name">sendMessages</span>
+                  <span class="parameters">(@Birrpro2, April is the month of Shinning, I have amazing historical journals of my family findings, please meet me today afternoon and I can show you. Thanks.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTest(birrpro2, ethio1234)">
+                  </a> <!-- LoginTest(birrpro2, ethio1234) -->
+                  <span class="method-name">LoginTest</span>
+                  <span class="parameters">(birrpro2, ethio1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTest(7038284429, ethio1234)">
+                  </a> <!-- LoginTest(7038284429, ethio1234) -->
+                  <span class="method-name">LoginTest</span>
+                  <span class="parameters">(7038284429, ethio1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTest(3025150535, ethio1234)">
+                  </a> <!-- LoginTest(3025150535, ethio1234) -->
+                  <span class="method-name">LoginTest</span>
+                  <span class="parameters">(3025150535, ethio1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.UpdateProfileTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateProfile(birrpro2, C:\\Programming Related\\NEW WORKSPACE\\BootCamp\\src\\test\\resources\\ProfilePicture\\tw...)">
+                  </a> <!-- updateProfile(birrpro2, C:\\Programming Related\\NEW WORKSPACE\\BootCamp\\src\\test\\resources\\ProfilePicture\\tw...) -->
+                  <span class="method-name">updateProfile</span>
+                  <span class="parameters">(birrpro2, C:\\Programming Related\\NEW WORKSPACE\\BootCamp\\src\\test\\resources\\ProfilePicture\\twitterProfile.jpg, C:\\Programming Related\\NEW WORKSPACE\\BootCamp\\src\\test\\resources\\ProfilePicture\\twitterProfileHeader.jpg)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.SearchTwitterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchTwitter(@CDCgov)">
+                  </a> <!-- SearchTwitter(@CDCgov) -->
+                  <span class="method-name">SearchTwitter</span>
+                  <span class="parameters">(@CDCgov)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchTwitter(@Jay_Mathur20)">
+                  </a> <!-- SearchTwitter(@Jay_Mathur20) -->
+                  <span class="method-name">SearchTwitter</span>
+                  <span class="parameters">(@Jay_Mathur20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchTwitter(@Tesla)">
+                  </a> <!-- SearchTwitter(@Tesla) -->
+                  <span class="method-name">SearchTwitter</span>
+                  <span class="parameters">(@Tesla)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.CreateAnewTweetTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="postNewTweet(GoodMorning Fellow Americans today is My BirtDay!)">
+                  </a> <!-- postNewTweet(GoodMorning Fellow Americans today is My BirtDay!) -->
+                  <span class="method-name">postNewTweet</span>
+                  <span class="parameters">(GoodMorning Fellow Americans today is My BirtDay!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postNewTweet(I Like Twitter Very Much!)">
+                  </a> <!-- postNewTweet(I Like Twitter Very Much!) -->
+                  <span class="method-name">postNewTweet</span>
+                  <span class="parameters">(I Like Twitter Very Much!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postNewTweet(If you Like Twitter Please Like this Message!)">
+                  </a> <!-- postNewTweet(If you Like Twitter Please Like this Message!) -->
+                  <span class="method-name">postNewTweet</span>
+                  <span class="parameters">(If you Like Twitter Please Like this Message!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postNewTweet(Hello This is a Complementary Tweet.)">
+                  </a> <!-- postNewTweet(Hello This is a Complementary Tweet.) -->
+                  <span class="method-name">postNewTweet</span>
+                  <span class="parameters">(Hello This is a Complementary Tweet.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Programming Related\NEW WORKSPACE\BootCamp\TestNGRunner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Listeners.ExecutionListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LoginTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ExploreTwitterTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.SearchTwitterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ExploreTwitterTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;CreateANewTwitterTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.CreateAnewTweetTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CreateANewTwitterTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SendAMessageTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.SendAMessageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SendAMessageTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;UpdateProfilePictureANDNotificationsTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.UpdateProfileTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UpdateProfilePictureANDNotificationsTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LoginTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ExploreTwitterTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CreateANewTwitterTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SendAMessageTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UpdateProfilePictureANDNotificationsTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'updateProfile')
+data.setCell(0, 2, 'TestCases.UpdateProfileTest')
+data.setCell(0, 3, 53167);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'sendMessages')
+data.setCell(1, 2, 'TestCases.SendAMessageTest')
+data.setCell(1, 3, 19473);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'sendMessages')
+data.setCell(2, 2, 'TestCases.SendAMessageTest')
+data.setCell(2, 3, 19150);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'sendMessages')
+data.setCell(3, 2, 'TestCases.SendAMessageTest')
+data.setCell(3, 3, 19063);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'sendMessages')
+data.setCell(4, 2, 'TestCases.SendAMessageTest')
+data.setCell(4, 3, 19028);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SearchTwitter')
+data.setCell(5, 2, 'TestCases.SearchTwitterTest')
+data.setCell(5, 3, 11274);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'SearchTwitter')
+data.setCell(6, 2, 'TestCases.SearchTwitterTest')
+data.setCell(6, 3, 10398);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'SearchTwitter')
+data.setCell(7, 2, 'TestCases.SearchTwitterTest')
+data.setCell(7, 3, 10385);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'LoginTest')
+data.setCell(8, 2, 'TestCases.LoginTest')
+data.setCell(8, 3, 7525);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'postNewTweet')
+data.setCell(9, 2, 'TestCases.CreateAnewTweetTest')
+data.setCell(9, 3, 7359);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'postNewTweet')
+data.setCell(10, 2, 'TestCases.CreateAnewTweetTest')
+data.setCell(10, 3, 7304);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'postNewTweet')
+data.setCell(11, 2, 'TestCases.CreateAnewTweetTest')
+data.setCell(11, 3, 7173);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'postNewTweet')
+data.setCell(12, 2, 'TestCases.CreateAnewTweetTest')
+data.setCell(12, 3, 7139);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'LoginTest')
+data.setCell(13, 2, 'TestCases.LoginTest')
+data.setCell(13, 3, 5524);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'LoginTest')
+data.setCell(14, 2, 'TestCases.LoginTest')
+data.setCell(14, 3, 5459);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.UpdateProfileTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigatTo</span>
+                <span class="method-start">3517 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginTest(birrpro2, ethio1234)</span>
+                <span class="method-start">4272 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigatTo</span>
+                <span class="method-start">11810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginTest(3025150535, ethio1234)</span>
+                <span class="method-start">12179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigatTo</span>
+                <span class="method-start">17708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginTest(7038284429, ethio1234)</span>
+                <span class="method-start">18094 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.SearchTwitterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigatTo</span>
+                <span class="method-start">23691 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SearchTwitter(@Jay_Mathur20)</span>
+                <span class="method-start">24031 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigatTo</span>
+                <span class="method-start">35309 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SearchTwitter(@Tesla)</span>
+                <span class="method-start">35672 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigatTo</span>
+                <span class="method-start">46074 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SearchTwitter(@CDCgov)</span>
+                <span class="method-start">46432 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CreateAnewTweetTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigatTo</span>
+                <span class="method-start">56917 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">postNewTweet(I Like Twitter Very Much!)</span>
+                <span class="method-start">57238 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigatTo</span>
+                <span class="method-start">64380 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">postNewTweet(If you Like Twitter Please Like this Message!)</span>
+                <span class="method-start">64740 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigatTo</span>
+                <span class="method-start">72102 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">postNewTweet(GoodMorning Fellow Americans today is My BirtDay!)</span>
+                <span class="method-start">72436 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigatTo</span>
+                <span class="method-start">79744 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">postNewTweet(Hello This is a Complementary Tweet.)</span>
+                <span class="method-start">80084 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.SendAMessageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigatTo</span>
+                <span class="method-start">87342 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sendMessages(@Birrpro2, April is the month of Shinning, I have amazing historical journals of my family findings,...)</span>
+                <span class="method-start">87668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigatTo</span>
+                <span class="method-start">107143 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sendMessages(@BelayRute, I have Completed the BootCamp Project, If you receive this please Know it’s a Test! Than...)</span>
+                <span class="method-start">107489 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigatTo</span>
+                <span class="method-start">126556 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sendMessages(@Tesla, I wanted to buy a new car! Please send the quote to my Email: "birr.mp6@gmail.com" Thanks.)</span>
+                <span class="method-start">126915 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigatTo</span>
+                <span class="method-start">146068 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sendMessages(@BirrPro, I have Completed the BootCamp Project, If you receive this please Know it’s a Test! Thanks...)</span>
+                <span class="method-start">146425 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.UpdateProfileTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigatTo</span>
+                <span class="method-start">165540 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateProfile(birrpro2, C:\\Programming Related\\NEW WORKSPACE\\BootCamp\\src\\test\\resources\\ProfilePicture\\tw...)</span>
+                <span class="method-start">165898 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">219078 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

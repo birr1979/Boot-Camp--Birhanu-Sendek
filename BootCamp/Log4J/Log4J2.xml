@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="WARN">
+
+
+-<Appenders>
+
+
+-<RollingFile filePattern="target/rolling1/test1-${sd:type}.%i.log.gz" fileName="C:\Programming Related\NEW WORKSPACE\BootCamp\src\test\resources\LogFile\log4jlogfile.txt" name="Log4j">
+
+
+-<PatternLayout>
+
+<pattern>%d %p %c{1.} [%t] %m%n</pattern>
+
+</PatternLayout>
+
+<SizeBasedTriggeringPolicy size="5 MB"/>
+
+</RollingFile>
+
+
+-<Console name="Console" target="SYSTEM_OUT">
+
+<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+
+</Console>
+
+</Appenders>
+
+
+-<Loggers>
+
+
+-<Logger name="testCases" additivity="false" level="trace">
+
+<AppenderRef ref="Log4j"/>
+
+</Logger>
+
+
+-<Logger name="listeners" additivity="false" level="trace">
+
+<AppenderRef ref="Log4j"/>
+
+</Logger>
+
+
+-<Root level="trace">
+
+<AppenderRef ref="Log4j"/>
+
+</Root>
+
+</Loggers>
+
+</Configuration>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-30T03:00:55 EDT" name="Suite" finished-at="2021-04-30T03:04:31 EDT" duration-ms="216707">
+    <groups>
+    </groups>
+    <test started-at="2021-04-30T03:00:55 EDT" name="LoginTest" finished-at="2021-04-30T03:01:16 EDT" duration-ms="21202">
+      <class name="TestCases.LoginTest">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.LoginTest@15dcfae7]" started-at="2021-04-30T03:00:56 EDT" name="NavigatTo" finished-at="2021-04-30T03:00:57 EDT" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatTo -->
+        <test-method signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@15dcfae7]" started-at="2021-04-30T03:00:57 EDT" name="LoginTest" data-provider="commonDataProvider" finished-at="2021-04-30T03:01:04 EDT" duration-ms="7525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[birrpro2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ethio1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.LoginTest@15dcfae7]" started-at="2021-04-30T03:01:04 EDT" name="NavigatTo" finished-at="2021-04-30T03:01:04 EDT" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatTo -->
+        <test-method signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@15dcfae7]" started-at="2021-04-30T03:01:04 EDT" name="LoginTest" data-provider="commonDataProvider" finished-at="2021-04-30T03:01:10 EDT" duration-ms="5524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3025150535]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ethio1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.LoginTest@15dcfae7]" started-at="2021-04-30T03:01:10 EDT" name="NavigatTo" finished-at="2021-04-30T03:01:10 EDT" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatTo -->
+        <test-method signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@15dcfae7]" started-at="2021-04-30T03:01:10 EDT" name="LoginTest" data-provider="commonDataProvider" finished-at="2021-04-30T03:01:16 EDT" duration-ms="5459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7038284429]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ethio1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- TestCases.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2021-04-30T03:01:16 EDT" name="ExploreTwitterTest" finished-at="2021-04-30T03:01:49 EDT" duration-ms="33220">
+      <class name="TestCases.SearchTwitterTest">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SearchTwitterTest@3e30646a]" started-at="2021-04-30T03:01:16 EDT" name="NavigatTo" finished-at="2021-04-30T03:01:16 EDT" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatTo -->
+        <test-method signature="SearchTwitter(java.lang.String)[pri:0, instance:TestCases.SearchTwitterTest@3e30646a]" started-at="2021-04-30T03:01:16 EDT" name="SearchTwitter" data-provider="commonDataProvider" finished-at="2021-04-30T03:01:28 EDT" duration-ms="11274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@Jay_Mathur20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTwitter -->
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SearchTwitterTest@3e30646a]" started-at="2021-04-30T03:01:28 EDT" name="NavigatTo" finished-at="2021-04-30T03:01:28 EDT" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatTo -->
+        <test-method signature="SearchTwitter(java.lang.String)[pri:0, instance:TestCases.SearchTwitterTest@3e30646a]" started-at="2021-04-30T03:01:28 EDT" name="SearchTwitter" data-provider="commonDataProvider" finished-at="2021-04-30T03:01:38 EDT" duration-ms="10398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@Tesla]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTwitter -->
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SearchTwitterTest@3e30646a]" started-at="2021-04-30T03:01:38 EDT" name="NavigatTo" finished-at="2021-04-30T03:01:39 EDT" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatTo -->
+        <test-method signature="SearchTwitter(java.lang.String)[pri:0, instance:TestCases.SearchTwitterTest@3e30646a]" started-at="2021-04-30T03:01:39 EDT" name="SearchTwitter" data-provider="commonDataProvider" finished-at="2021-04-30T03:01:49 EDT" duration-ms="10385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@CDCgov]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTwitter -->
+      </class> <!-- TestCases.SearchTwitterTest -->
+    </test> <!-- ExploreTwitterTest -->
+    <test started-at="2021-04-30T03:01:49 EDT" name="CreateANewTwitterTest" finished-at="2021-04-30T03:02:20 EDT" duration-ms="30424">
+      <class name="TestCases.CreateAnewTweetTest">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-04-30T03:01:49 EDT" name="NavigatTo" finished-at="2021-04-30T03:01:50 EDT" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatTo -->
+        <test-method signature="postNewTweet(java.lang.String)[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-04-30T03:01:50 EDT" name="postNewTweet" data-provider="commonDataProvider" finished-at="2021-04-30T03:01:57 EDT" duration-ms="7139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[I Like Twitter Very Much!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postNewTweet -->
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-04-30T03:01:57 EDT" name="NavigatTo" finished-at="2021-04-30T03:01:57 EDT" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatTo -->
+        <test-method signature="postNewTweet(java.lang.String)[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-04-30T03:01:57 EDT" name="postNewTweet" data-provider="commonDataProvider" finished-at="2021-04-30T03:02:04 EDT" duration-ms="7359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[If you Like Twitter Please Like this Message!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postNewTweet -->
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-04-30T03:02:04 EDT" name="NavigatTo" finished-at="2021-04-30T03:02:05 EDT" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatTo -->
+        <test-method signature="postNewTweet(java.lang.String)[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-04-30T03:02:05 EDT" name="postNewTweet" data-provider="commonDataProvider" finished-at="2021-04-30T03:02:12 EDT" duration-ms="7304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GoodMorning Fellow Americans today is My BirtDay!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postNewTweet -->
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-04-30T03:02:12 EDT" name="NavigatTo" finished-at="2021-04-30T03:02:12 EDT" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatTo -->
+        <test-method signature="postNewTweet(java.lang.String)[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-04-30T03:02:12 EDT" name="postNewTweet" data-provider="commonDataProvider" finished-at="2021-04-30T03:02:20 EDT" duration-ms="7173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello This is a Complementary Tweet.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postNewTweet -->
+      </class> <!-- TestCases.CreateAnewTweetTest -->
+    </test> <!-- CreateANewTwitterTest -->
+    <test started-at="2021-04-30T03:02:20 EDT" name="SendAMessageTest" finished-at="2021-04-30T03:03:38 EDT" duration-ms="78187">
+      <class name="TestCases.SendAMessageTest">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-04-30T03:02:20 EDT" name="NavigatTo" finished-at="2021-04-30T03:02:20 EDT" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatTo -->
+        <test-method signature="sendMessages(java.lang.String, java.lang.String)[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-04-30T03:02:20 EDT" name="sendMessages" data-provider="commonDataProvider" finished-at="2021-04-30T03:02:39 EDT" duration-ms="19473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@Birrpro2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[April is the month of Shinning, I have amazing historical journals of my family findings, please meet me today afternoon and I can show you. Thanks.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessages -->
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-04-30T03:02:39 EDT" name="NavigatTo" finished-at="2021-04-30T03:02:40 EDT" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatTo -->
+        <test-method signature="sendMessages(java.lang.String, java.lang.String)[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-04-30T03:02:40 EDT" name="sendMessages" data-provider="commonDataProvider" finished-at="2021-04-30T03:02:59 EDT" duration-ms="19063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@BelayRute]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[I have Completed the BootCamp Project, If you receive this please Know it’s a Test! Thanks.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessages -->
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-04-30T03:02:59 EDT" name="NavigatTo" finished-at="2021-04-30T03:02:59 EDT" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatTo -->
+        <test-method signature="sendMessages(java.lang.String, java.lang.String)[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-04-30T03:02:59 EDT" name="sendMessages" data-provider="commonDataProvider" finished-at="2021-04-30T03:03:18 EDT" duration-ms="19150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@Tesla]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[I wanted to buy a new car! Please send the quote to my Email: "birr.mp6@gmail.com" Thanks.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessages -->
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-04-30T03:03:18 EDT" name="NavigatTo" finished-at="2021-04-30T03:03:19 EDT" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatTo -->
+        <test-method signature="sendMessages(java.lang.String, java.lang.String)[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-04-30T03:03:19 EDT" name="sendMessages" data-provider="commonDataProvider" finished-at="2021-04-30T03:03:38 EDT" duration-ms="19028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@BirrPro]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[I have Completed the BootCamp Project, If you receive this please Know it’s a Test! Thanks.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessages -->
+      </class> <!-- TestCases.SendAMessageTest -->
+    </test> <!-- SendAMessageTest -->
+    <test started-at="2021-04-30T03:03:38 EDT" name="UpdateProfilePictureANDNotificationsTest" finished-at="2021-04-30T03:04:31 EDT" duration-ms="53601">
+      <class name="TestCases.UpdateProfileTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.UpdateProfileTest@550a1967]" started-at="2021-04-30T03:00:52 EDT" name="setUp" finished-at="2021-04-30T03:00:55 EDT" duration-ms="2359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.UpdateProfileTest@550a1967]" started-at="2021-04-30T03:03:38 EDT" name="NavigatTo" finished-at="2021-04-30T03:03:38 EDT" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatTo -->
+        <test-method signature="updateProfile(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.UpdateProfileTest@550a1967]" started-at="2021-04-30T03:03:38 EDT" name="updateProfile" data-provider="commonDataProvider" finished-at="2021-04-30T03:04:31 EDT" duration-ms="53167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[birrpro2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:\\Programming Related\\NEW WORKSPACE\\BootCamp\\src\\test\\resources\\ProfilePicture\\twitterProfile.jpg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C:\\Programming Related\\NEW WORKSPACE\\BootCamp\\src\\test\\resources\\ProfilePicture\\twitterProfileHeader.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateProfile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.UpdateProfileTest@550a1967]" started-at="2021-04-30T03:04:31 EDT" name="tearDown" finished-at="2021-04-30T03:04:33 EDT" duration-ms="1403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.UpdateProfileTest -->
+    </test> <!-- UpdateProfilePictureANDNotificationsTest -->
+  </suite> <!-- Suite -->
+</testng-results>
