@@ -41,7 +41,7 @@ public class ExplorePage extends BasePage{
 
 	public static void searchTwitter(String keyword) throws InterruptedException {
 	
-			searchTwitter.sendKeys(keyword+" ");
+			searchTwitter.sendKeys(keyword+" "); //The Space is used to retrieve the keyword and list it in the first search row
 			Thread.sleep(2000);
 
 			selectPeople.click();

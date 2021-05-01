@@ -67,9 +67,9 @@ public class ProfilePage extends BasePage{
 	public ProfilePage changeProfilePicture(String profileImage, String headerImage) {
 		
 		editProfile.click();
-		UploadProfilePicture.sendKeys(profileImage);
+		UploadProfilePicture.sendKeys(System.getProperty("user.dir")+profileImage);
 		applyChange.click();
-		pickHeaderImage.sendKeys(headerImage);
+		pickHeaderImage.sendKeys(System.getProperty("user.dir")+headerImage);
 		applyChange.click();
 		saveChanges.click();
 		return new ProfilePage(driver);

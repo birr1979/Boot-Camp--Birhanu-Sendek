@@ -1,5 +1,6 @@
 package TestCases;
 
+import org.junit.Assert;
 import org.testng.annotations.Test;
 
 import BaseTest.BaseTest;
@@ -10,8 +11,8 @@ import Utilities.readExcelData;
  * 
  * @TestCase this test case validates the useCase of twitter.com on a user able to  login and change profile and header images. 
  * 
- * @ProfilePicture are implemented to read and also tell how many notifications are there in the account, all notifications are printed 
- * on the consul.  
+ * @ProfilePicture are implemented to read and also tell how many notifications (#) are there in the account, all notifications are printed 
+ * on the console if necessary we can print it in the Logger and Extent reporter. 
  * 
  * @DateProvider Data has been provided from excel common data provider.
  * The Picture File Path's are included in the excel sheet. 
@@ -35,7 +36,6 @@ public class UpdateProfileTest extends BaseTest{
 
 
 		Thread.sleep(2000);
-
 		twitter.menu.goToNotificationPage().seeAllNotifications();
 		testReporterLog("User has: "+ twitter.menu.goToNotificationPage().NotificationCount()+" Notifications and List is Printed in the consul");
 

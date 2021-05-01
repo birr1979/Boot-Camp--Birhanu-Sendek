@@ -84,7 +84,7 @@ public class BaseTest {
 		}
 
 		//Extent Reporter design 
-		sparkReporter= new ExtentSparkReporter("C://Programming Related//NEW WORKSPACE//BootCamp//src//test//resources//ExtentReports//"+FileName()+"_extentReporter.html");
+		sparkReporter= new ExtentSparkReporter(System.getProperty("user.dir")+"//src//test//resources//ExtentReports//"+FileName()+"_extentReporter.html");
 		sparkReporter.config().setEncoding("utf-8");
 		sparkReporter.config().setDocumentTitle(ObjRepo.getProperty("DocTitle"));
 		sparkReporter.config().setReportName(ObjRepo.getProperty("Author")+ObjRepo.getProperty("Report"));
@@ -146,11 +146,13 @@ public class BaseTest {
 	public void testReporterLog(String testReporterMessage) {
 		log.info(testReporterMessage);
 		extent.log(Status.INFO,testReporterMessage);
+		System.out.println(testReporterMessage);
 	}
 
 	public void testReporterLogError(String testReporterMessage) {
 		log.error(testReporterMessage);
 		extent.fail(testReporterMessage);
+		System.out.println(testReporterMessage);
 	}
 
 
