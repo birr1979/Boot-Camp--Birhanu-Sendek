@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.CreateAnewTweetTest">
+      <class name="TestCases.UpdateProfileTest">
         <methods>
+          <include name="updateProfile" invocation-numbers="0"/>
           <include name="NavigatTo"/>
           <include name="tearDown"/>
-          <include name="postNewTweet" invocation-numbers="0 1 2 3"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- TestCases.CreateAnewTweetTest -->
+      </class> <!-- TestCases.UpdateProfileTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

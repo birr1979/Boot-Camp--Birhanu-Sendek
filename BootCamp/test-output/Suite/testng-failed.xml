@@ -4,16 +4,16 @@
   <listeners>
     <listener class-name="Listeners.ExecutionListeners"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Failed ScreenShotTest NOTE:&#039;Its not a Test Case&#039;(failed)">
     <classes>
-      <class name="TestCases.SearchTwitterTest">
+      <class name="TestCases.ScreenShotTest">
         <methods>
           <include name="NavigatTo"/>
-          <include name="SearchTwitter" invocation-numbers="0 1 2"/>
           <include name="tearDown"/>
+          <include name="screenShotTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- TestCases.SearchTwitterTest -->
+      </class> <!-- TestCases.ScreenShotTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Failed ScreenShotTest NOTE:'Its not a Test Case'(failed) -->
 </suite> <!-- Failed suite [Suite] -->

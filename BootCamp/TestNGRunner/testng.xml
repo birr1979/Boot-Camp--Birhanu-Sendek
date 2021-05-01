@@ -34,5 +34,12 @@
       <class name="TestCases.UpdateProfileTest"/>
       </classes>
   </test> <!-- Test -->
+  
+  <test thread-count="5" name="Failed ScreenShotTest NOTE:'Its not a Test Case'">
+    <classes>
+      <class name="TestCases.ScreenShotTest"/>
+      </classes>
+  </test> <!-- Test -->
+  
 
 </suite> <!-- Suite -->

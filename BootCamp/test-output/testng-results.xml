@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="15" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-30T03:00:55 EDT" name="Suite" finished-at="2021-04-30T03:04:31 EDT" duration-ms="216707">
+  <suite started-at="2021-05-01T00:41:30 EDT" name="Suite" finished-at="2021-05-01T00:45:03 EDT" duration-ms="213481">
     <groups>
     </groups>
-    <test started-at="2021-04-30T03:00:55 EDT" name="LoginTest" finished-at="2021-04-30T03:01:16 EDT" duration-ms="21202">
+    <test started-at="2021-05-01T00:41:30 EDT" name="LoginTest" finished-at="2021-05-01T00:41:49 EDT" duration-ms="18886">
       <class name="TestCases.LoginTest">
-        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.LoginTest@15dcfae7]" started-at="2021-04-30T03:00:56 EDT" name="NavigatTo" finished-at="2021-04-30T03:00:57 EDT" duration-ms="753" status="PASS">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.LoginTest@15dcfae7]" started-at="2021-05-01T00:41:31 EDT" name="NavigatTo" finished-at="2021-05-01T00:41:31 EDT" duration-ms="657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigatTo -->
-        <test-method signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@15dcfae7]" started-at="2021-04-30T03:00:57 EDT" name="LoginTest" data-provider="commonDataProvider" finished-at="2021-04-30T03:01:04 EDT" duration-ms="7525" status="PASS">
+        <test-method signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@15dcfae7]" started-at="2021-05-01T00:41:31 EDT" name="LoginTest" data-provider="commonDataProvider" finished-at="2021-05-01T00:41:37 EDT" duration-ms="6165" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.LoginTest@15dcfae7]" started-at="2021-04-30T03:01:04 EDT" name="NavigatTo" finished-at="2021-04-30T03:01:04 EDT" duration-ms="369" status="PASS">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.LoginTest@15dcfae7]" started-at="2021-05-01T00:41:37 EDT" name="NavigatTo" finished-at="2021-05-01T00:41:38 EDT" duration-ms="316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigatTo -->
-        <test-method signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@15dcfae7]" started-at="2021-04-30T03:01:04 EDT" name="LoginTest" data-provider="commonDataProvider" finished-at="2021-04-30T03:01:10 EDT" duration-ms="5524" status="PASS">
+        <test-method signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@15dcfae7]" started-at="2021-05-01T00:41:38 EDT" name="LoginTest" data-provider="commonDataProvider" finished-at="2021-05-01T00:41:43 EDT" duration-ms="5550" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,11 +47,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.LoginTest@15dcfae7]" started-at="2021-04-30T03:01:10 EDT" name="NavigatTo" finished-at="2021-04-30T03:01:10 EDT" duration-ms="386" status="PASS">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.LoginTest@15dcfae7]" started-at="2021-05-01T00:41:43 EDT" name="NavigatTo" finished-at="2021-05-01T00:41:44 EDT" duration-ms="313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigatTo -->
-        <test-method signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@15dcfae7]" started-at="2021-04-30T03:01:10 EDT" name="LoginTest" data-provider="commonDataProvider" finished-at="2021-04-30T03:01:16 EDT" duration-ms="5459" status="PASS">
+        <test-method signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@15dcfae7]" started-at="2021-05-01T00:41:44 EDT" name="LoginTest" data-provider="commonDataProvider" finished-at="2021-05-01T00:41:49 EDT" duration-ms="5175" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,13 +69,13 @@
         </test-method> <!-- LoginTest -->
       </class> <!-- TestCases.LoginTest -->
     </test> <!-- LoginTest -->
-    <test started-at="2021-04-30T03:01:16 EDT" name="ExploreTwitterTest" finished-at="2021-04-30T03:01:49 EDT" duration-ms="33220">
+    <test started-at="2021-05-01T00:41:49 EDT" name="ExploreTwitterTest" finished-at="2021-05-01T00:42:23 EDT" duration-ms="33701">
       <class name="TestCases.SearchTwitterTest">
-        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SearchTwitterTest@3e30646a]" started-at="2021-04-30T03:01:16 EDT" name="NavigatTo" finished-at="2021-04-30T03:01:16 EDT" duration-ms="339" status="PASS">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SearchTwitterTest@3e30646a]" started-at="2021-05-01T00:41:49 EDT" name="NavigatTo" finished-at="2021-05-01T00:41:49 EDT" duration-ms="282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigatTo -->
-        <test-method signature="SearchTwitter(java.lang.String)[pri:0, instance:TestCases.SearchTwitterTest@3e30646a]" started-at="2021-04-30T03:01:16 EDT" name="SearchTwitter" data-provider="commonDataProvider" finished-at="2021-04-30T03:01:28 EDT" duration-ms="11274" status="PASS">
+        <test-method signature="SearchTwitter(java.lang.String)[pri:0, instance:TestCases.SearchTwitterTest@3e30646a]" started-at="2021-05-01T00:41:49 EDT" name="SearchTwitter" data-provider="commonDataProvider" finished-at="2021-05-01T00:42:00 EDT" duration-ms="11043" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,11 +86,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTwitter -->
-        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SearchTwitterTest@3e30646a]" started-at="2021-04-30T03:01:28 EDT" name="NavigatTo" finished-at="2021-04-30T03:01:28 EDT" duration-ms="362" status="PASS">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SearchTwitterTest@3e30646a]" started-at="2021-05-01T00:42:00 EDT" name="NavigatTo" finished-at="2021-05-01T00:42:01 EDT" duration-ms="289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigatTo -->
-        <test-method signature="SearchTwitter(java.lang.String)[pri:0, instance:TestCases.SearchTwitterTest@3e30646a]" started-at="2021-04-30T03:01:28 EDT" name="SearchTwitter" data-provider="commonDataProvider" finished-at="2021-04-30T03:01:38 EDT" duration-ms="10398" status="PASS">
+        <test-method signature="SearchTwitter(java.lang.String)[pri:0, instance:TestCases.SearchTwitterTest@3e30646a]" started-at="2021-05-01T00:42:01 EDT" name="SearchTwitter" data-provider="commonDataProvider" finished-at="2021-05-01T00:42:11 EDT" duration-ms="10827" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,11 +101,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTwitter -->
-        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SearchTwitterTest@3e30646a]" started-at="2021-04-30T03:01:38 EDT" name="NavigatTo" finished-at="2021-04-30T03:01:39 EDT" duration-ms="358" status="PASS">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SearchTwitterTest@3e30646a]" started-at="2021-05-01T00:42:11 EDT" name="NavigatTo" finished-at="2021-05-01T00:42:12 EDT" duration-ms="316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigatTo -->
-        <test-method signature="SearchTwitter(java.lang.String)[pri:0, instance:TestCases.SearchTwitterTest@3e30646a]" started-at="2021-04-30T03:01:39 EDT" name="SearchTwitter" data-provider="commonDataProvider" finished-at="2021-04-30T03:01:49 EDT" duration-ms="10385" status="PASS">
+        <test-method signature="SearchTwitter(java.lang.String)[pri:0, instance:TestCases.SearchTwitterTest@3e30646a]" started-at="2021-05-01T00:42:12 EDT" name="SearchTwitter" data-provider="commonDataProvider" finished-at="2021-05-01T00:42:23 EDT" duration-ms="10882" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -118,13 +118,13 @@
         </test-method> <!-- SearchTwitter -->
       </class> <!-- TestCases.SearchTwitterTest -->
     </test> <!-- ExploreTwitterTest -->
-    <test started-at="2021-04-30T03:01:49 EDT" name="CreateANewTwitterTest" finished-at="2021-04-30T03:02:20 EDT" duration-ms="30424">
+    <test started-at="2021-05-01T00:42:23 EDT" name="CreateANewTwitterTest" finished-at="2021-05-01T00:42:52 EDT" duration-ms="29384">
       <class name="TestCases.CreateAnewTweetTest">
-        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-04-30T03:01:49 EDT" name="NavigatTo" finished-at="2021-04-30T03:01:50 EDT" duration-ms="321" status="PASS">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-05-01T00:42:23 EDT" name="NavigatTo" finished-at="2021-05-01T00:42:23 EDT" duration-ms="299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigatTo -->
-        <test-method signature="postNewTweet(java.lang.String)[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-04-30T03:01:50 EDT" name="postNewTweet" data-provider="commonDataProvider" finished-at="2021-04-30T03:01:57 EDT" duration-ms="7139" status="PASS">
+        <test-method signature="postNewTweet(java.lang.String)[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-05-01T00:42:23 EDT" name="postNewTweet" data-provider="commonDataProvider" finished-at="2021-05-01T00:42:29 EDT" duration-ms="6522" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,11 +135,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postNewTweet -->
-        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-04-30T03:01:57 EDT" name="NavigatTo" finished-at="2021-04-30T03:01:57 EDT" duration-ms="359" status="PASS">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-05-01T00:42:29 EDT" name="NavigatTo" finished-at="2021-05-01T00:42:30 EDT" duration-ms="307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigatTo -->
-        <test-method signature="postNewTweet(java.lang.String)[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-04-30T03:01:57 EDT" name="postNewTweet" data-provider="commonDataProvider" finished-at="2021-04-30T03:02:04 EDT" duration-ms="7359" status="PASS">
+        <test-method signature="postNewTweet(java.lang.String)[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-05-01T00:42:30 EDT" name="postNewTweet" data-provider="commonDataProvider" finished-at="2021-05-01T00:42:37 EDT" duration-ms="7237" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -150,11 +150,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postNewTweet -->
-        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-04-30T03:02:04 EDT" name="NavigatTo" finished-at="2021-04-30T03:02:05 EDT" duration-ms="334" status="PASS">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-05-01T00:42:37 EDT" name="NavigatTo" finished-at="2021-05-01T00:42:37 EDT" duration-ms="301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigatTo -->
-        <test-method signature="postNewTweet(java.lang.String)[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-04-30T03:02:05 EDT" name="postNewTweet" data-provider="commonDataProvider" finished-at="2021-04-30T03:02:12 EDT" duration-ms="7304" status="PASS">
+        <test-method signature="postNewTweet(java.lang.String)[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-05-01T00:42:37 EDT" name="postNewTweet" data-provider="commonDataProvider" finished-at="2021-05-01T00:42:45 EDT" duration-ms="7398" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -165,11 +165,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postNewTweet -->
-        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-04-30T03:02:12 EDT" name="NavigatTo" finished-at="2021-04-30T03:02:12 EDT" duration-ms="340" status="PASS">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-05-01T00:42:45 EDT" name="NavigatTo" finished-at="2021-05-01T00:42:45 EDT" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigatTo -->
-        <test-method signature="postNewTweet(java.lang.String)[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-04-30T03:02:12 EDT" name="postNewTweet" data-provider="commonDataProvider" finished-at="2021-04-30T03:02:20 EDT" duration-ms="7173" status="PASS">
+        <test-method signature="postNewTweet(java.lang.String)[pri:0, instance:TestCases.CreateAnewTweetTest@73a2e526]" started-at="2021-05-01T00:42:45 EDT" name="postNewTweet" data-provider="commonDataProvider" finished-at="2021-05-01T00:42:52 EDT" duration-ms="6975" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -182,13 +182,13 @@
         </test-method> <!-- postNewTweet -->
       </class> <!-- TestCases.CreateAnewTweetTest -->
     </test> <!-- CreateANewTwitterTest -->
-    <test started-at="2021-04-30T03:02:20 EDT" name="SendAMessageTest" finished-at="2021-04-30T03:03:38 EDT" duration-ms="78187">
+    <test started-at="2021-05-01T00:42:52 EDT" name="SendAMessageTest" finished-at="2021-05-01T00:44:08 EDT" duration-ms="76409">
       <class name="TestCases.SendAMessageTest">
-        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-04-30T03:02:20 EDT" name="NavigatTo" finished-at="2021-04-30T03:02:20 EDT" duration-ms="326" status="PASS">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-05-01T00:42:52 EDT" name="NavigatTo" finished-at="2021-05-01T00:42:52 EDT" duration-ms="360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigatTo -->
-        <test-method signature="sendMessages(java.lang.String, java.lang.String)[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-04-30T03:02:20 EDT" name="sendMessages" data-provider="commonDataProvider" finished-at="2021-04-30T03:02:39 EDT" duration-ms="19473" status="PASS">
+        <test-method signature="sendMessages(java.lang.String, java.lang.String)[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-05-01T00:42:52 EDT" name="sendMessages" data-provider="commonDataProvider" finished-at="2021-05-01T00:43:11 EDT" duration-ms="19004" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -204,11 +204,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendMessages -->
-        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-04-30T03:02:39 EDT" name="NavigatTo" finished-at="2021-04-30T03:02:40 EDT" duration-ms="346" status="PASS">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-05-01T00:43:11 EDT" name="NavigatTo" finished-at="2021-05-01T00:43:12 EDT" duration-ms="283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigatTo -->
-        <test-method signature="sendMessages(java.lang.String, java.lang.String)[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-04-30T03:02:40 EDT" name="sendMessages" data-provider="commonDataProvider" finished-at="2021-04-30T03:02:59 EDT" duration-ms="19063" status="PASS">
+        <test-method signature="sendMessages(java.lang.String, java.lang.String)[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-05-01T00:43:12 EDT" name="sendMessages" data-provider="commonDataProvider" finished-at="2021-05-01T00:43:30 EDT" duration-ms="18662" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -217,18 +217,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[I have Completed the BootCamp Project, If you receive this please Know it’s a Test! Thanks.]]>
+                <![CDATA[I have Completed the Boot Camp Project, If you receive this please Know it’s a Test! Thanks.]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendMessages -->
-        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-04-30T03:02:59 EDT" name="NavigatTo" finished-at="2021-04-30T03:02:59 EDT" duration-ms="359" status="PASS">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-05-01T00:43:30 EDT" name="NavigatTo" finished-at="2021-05-01T00:43:31 EDT" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigatTo -->
-        <test-method signature="sendMessages(java.lang.String, java.lang.String)[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-04-30T03:02:59 EDT" name="sendMessages" data-provider="commonDataProvider" finished-at="2021-04-30T03:03:18 EDT" duration-ms="19150" status="PASS">
+        <test-method signature="sendMessages(java.lang.String, java.lang.String)[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-05-01T00:43:31 EDT" name="sendMessages" data-provider="commonDataProvider" finished-at="2021-05-01T00:43:49 EDT" duration-ms="18754" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -244,11 +244,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendMessages -->
-        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-04-30T03:03:18 EDT" name="NavigatTo" finished-at="2021-04-30T03:03:19 EDT" duration-ms="357" status="PASS">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-05-01T00:43:49 EDT" name="NavigatTo" finished-at="2021-05-01T00:43:50 EDT" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigatTo -->
-        <test-method signature="sendMessages(java.lang.String, java.lang.String)[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-04-30T03:03:19 EDT" name="sendMessages" data-provider="commonDataProvider" finished-at="2021-04-30T03:03:38 EDT" duration-ms="19028" status="PASS">
+        <test-method signature="sendMessages(java.lang.String, java.lang.String)[pri:0, instance:TestCases.SendAMessageTest@ebaa6cb]" started-at="2021-05-01T00:43:50 EDT" name="sendMessages" data-provider="commonDataProvider" finished-at="2021-05-01T00:44:08 EDT" duration-ms="18714" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -257,7 +257,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[I have Completed the BootCamp Project, If you receive this please Know it’s a Test! Thanks.]]>
+                <![CDATA[I have Completed the Boot Camp Project, If you receive this please Know it’s a Test! Thanks.]]>
               </value>
             </param>
           </params>
@@ -266,17 +266,13 @@
         </test-method> <!-- sendMessages -->
       </class> <!-- TestCases.SendAMessageTest -->
     </test> <!-- SendAMessageTest -->
-    <test started-at="2021-04-30T03:03:38 EDT" name="UpdateProfilePictureANDNotificationsTest" finished-at="2021-04-30T03:04:31 EDT" duration-ms="53601">
+    <test started-at="2021-05-01T00:44:08 EDT" name="UpdateProfilePictureANDNotificationsTest" finished-at="2021-05-01T00:45:01 EDT" duration-ms="53029">
       <class name="TestCases.UpdateProfileTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.UpdateProfileTest@550a1967]" started-at="2021-04-30T03:00:52 EDT" name="setUp" finished-at="2021-04-30T03:00:55 EDT" duration-ms="2359" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.UpdateProfileTest@550a1967]" started-at="2021-04-30T03:03:38 EDT" name="NavigatTo" finished-at="2021-04-30T03:03:38 EDT" duration-ms="358" status="PASS">
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.UpdateProfileTest@550a1967]" started-at="2021-05-01T00:44:08 EDT" name="NavigatTo" finished-at="2021-05-01T00:44:09 EDT" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigatTo -->
-        <test-method signature="updateProfile(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.UpdateProfileTest@550a1967]" started-at="2021-04-30T03:03:38 EDT" name="updateProfile" data-provider="commonDataProvider" finished-at="2021-04-30T03:04:31 EDT" duration-ms="53167" status="PASS">
+        <test-method signature="updateProfile(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.UpdateProfileTest@550a1967]" started-at="2021-05-01T00:44:09 EDT" name="updateProfile" data-provider="commonDataProvider" finished-at="2021-05-01T00:45:01 EDT" duration-ms="52662" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -285,23 +281,76 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[C:\\Programming Related\\NEW WORKSPACE\\BootCamp\\src\\test\\resources\\ProfilePicture\\twitterProfile.jpg]]>
+                <![CDATA[\\src\\test\\resources\\ProfilePicture\\twitterProfile.jpg]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[C:\\Programming Related\\NEW WORKSPACE\\BootCamp\\src\\test\\resources\\ProfilePicture\\twitterProfileHeader.jpg]]>
+                <![CDATA[\\src\\test\\resources\\ProfilePicture\\twitterProfileHeader.jpg]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateProfile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.UpdateProfileTest@550a1967]" started-at="2021-04-30T03:04:31 EDT" name="tearDown" finished-at="2021-04-30T03:04:33 EDT" duration-ms="1403" status="PASS">
+      </class> <!-- TestCases.UpdateProfileTest -->
+    </test> <!-- UpdateProfilePictureANDNotificationsTest -->
+    <test started-at="2021-05-01T00:45:01 EDT" name="Failed ScreenShotTest NOTE:&#039;Its not a Test Case&#039;" finished-at="2021-05-01T00:45:03 EDT" duration-ms="2024">
+      <class name="TestCases.ScreenShotTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.ScreenShotTest@23aa363a]" started-at="2021-05-01T00:41:28 EDT" name="setUp" finished-at="2021-05-01T00:41:30 EDT" duration-ms="2074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="NavigatTo()[pri:0, instance:TestCases.ScreenShotTest@23aa363a]" started-at="2021-05-01T00:45:01 EDT" name="NavigatTo" finished-at="2021-05-01T00:45:02 EDT" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatTo -->
+        <test-method signature="screenShotTest()[pri:0, instance:TestCases.ScreenShotTest@23aa363a]" started-at="2021-05-01T00:45:02 EDT" name="screenShotTest" finished-at="2021-05-01T00:45:03 EDT" duration-ms="1180" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:87)
+at org.junit.Assert.fail(Assert.java:96)
+at TestCases.ScreenShotTest.screenShotTest(ScreenShotTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.ScreenShotTest@23aa363a]" started-at="2021-05-01T00:45:03 EDT" name="tearDown" finished-at="2021-05-01T00:45:05 EDT" duration-ms="1260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.UpdateProfileTest -->
-    </test> <!-- UpdateProfilePictureANDNotificationsTest -->
+      </class> <!-- TestCases.ScreenShotTest -->
+    </test> <!-- Failed ScreenShotTest NOTE:'Its not a Test Case' -->
   </suite> <!-- Suite -->
 </testng-results>
